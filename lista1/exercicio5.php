@@ -17,6 +17,8 @@
 </body>
 </html>
 
+<!-- PESQUISEI PARA FAZER - não sabia  -->
+
 <?php
 function somaDivisores($numero) {
     $soma = 0;
