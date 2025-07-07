@@ -9,7 +9,7 @@
     <h1>Número Positivo, negativo ou zero</h1>
 
      <form method="POST" action="">
-        <label for="numero">Digite um número para saber se é Positivo, negativo ou zero:</label>
+        <label for="numero">Digite um número para saber se é positivo, negativo ou zero:</label>
         <input type="number" id="numero" name="numero" required>
         <button type="submit" name="verificar_numero">Verificar</button>
     </form>
