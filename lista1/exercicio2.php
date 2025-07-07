@@ -16,7 +16,6 @@
 <body>
     <h1>Tabuada</h1>
 </body>
-
 </html>
 
 <?php
@@ -27,8 +26,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         for ($i = 1; $i <= 10; $i++) {
             $resultado = $numero * $i;
             echo "$numero * $i = $resultado <br>";
-        }
-    }
+        };
+    };
 };
 
 ?>
