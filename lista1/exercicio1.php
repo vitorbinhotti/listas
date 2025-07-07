@@ -16,16 +16,11 @@
         <input type="number" id="numero_par" name="numero_par" required>
         <button type="submit" name="verificar_par">Verificar</button>
     </form>
-</body>
-
-</html>
-
-
 
 <?php
 function verificarPar($numero){
     if ($numero % 2 == 0) {
-        return "Numero $numero é par";
+        return "Número $numero é par";
     } else {
         return "Número $numero é ímpar";
     }
@@ -39,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo verificarPar($numero);
     };
 };
-
-
-
 ?>
+
+</body>
+</html>
