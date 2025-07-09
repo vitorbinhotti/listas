@@ -26,12 +26,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $nome = $_POST['nome'];
         $idade = $_POST['idade'];
     };
-    if ($idade >= 1) {
-        echo 'Você pode votar';
+    if ($idade >= 16) {
+        echo "$nome,", " você pode votar";
     } else if ($idade < 0) {
         echo "Idade inválida";
-    } else {
-        echo "Você não pode votar";
+    } else if ($idade <= 16){
+        echo "$nome," ," você não pode votar";
     } 
 };
 ?>
