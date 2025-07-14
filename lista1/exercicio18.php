@@ -32,10 +32,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     };
     if ($numero1 > $numero2 and $numero3) {
         echo 'Primeiro número maior';
-    } else if ($numero2 > $numero1 and $numero3) {
+    } else if ($numero2 > $numero3 and $numero1) {
         echo "Segundo número maior";
     } else if ($numero3 > $numero2 and $numero1) {
         echo "Terceiro número maior";
-    };
+    } 
 };
 ?>
