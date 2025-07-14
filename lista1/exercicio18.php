@@ -30,6 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $numero2 = $_POST['numero2'];
         $numero3 = $_POST['numero3'];
     };
+    
     if ($numero1 > $numero2 and $numero3) {
         echo 'Primeiro número maior';
     } else if ($numero2 > $numero3 and $numero1) {
